@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="rpg_room.js"></script>
+    <script src="rpg_sauce.js"></script>
+    <script src="rpg_inventory.js"></script>
+    <script src="rpg_object.js"></script>
+    <script src="rpg_battle.js"></script>
+    <script src="rpg_function.js"></script>
+    <script src="rpg_search.js"></script>
+    <script src="rpg_main.js"></script>
+    <link rel="stylesheet" href="rpg_layout.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="background">
+        <div id="console_window">
+            <div id="console_a">
+                <textarea id="a" readonly="readonly"></textarea>
+            </div>
+            <div id="console_b">
+                <textarea id="b" readonly="readonly"></textarea>
+            </div>
+            <div id="right_me">
+                <div id="console_c">
+                    <textarea id="c" readonly="readonly"></textarea>
+                </div>
+                <div id="console_d">
+                    <textarea id="d" readonly="readonly"></textarea>
+                </div>
+            </div>
+            <div id="console_f">
+                <textarea id="f" readonly="readonly"></textarea>
+            </div>
+
+        </div>
+        <div id="tn">
+            <div id="ts">
+
+            </div>
+            <div id="tr">
+                <input id="turnbtn" value="현재 턴: 1" readonly="readonly">
+            </div>
+
+        </div>
+        <div id="menu">
+            <div id="portrait">
+                <img id="mee" src="me.png">
+            </div>
+            <div id="mn">
+                <div id="momo_3">
+                    <input class="move_btn" id="up" type="button" value="🔼(Z)" onclick="move('위');" >
+                    <input class="move_btn" id="north" type="button" value="⬆️(W)" onclick="move('북');">
+                </div>
+                <div id="momo_2">
+                    <input class="move_btn" id="west" type="button" value="⬅️(A)" onclick="move('서');" >
+                    <input class="move_btn" id="east" type="button" value="➡️(D)" onclick="move('동');" >
+                    <input id="atk_btn" type="button" value="⚔️전 투(Q)" onclick="atk_turn();" disabled>
+                    <input id="guard_btn" type="button" value="🛡️방 어(E)" onclick="guard_turn();" disabled>
+                    <input id="run_btn" type="button" value="💨도   망(R)" onclick="runtoyou();" disabled>
+                    <input id="use_btn" type="button" value="테스트" onclick="useee();">
+                </div>
+                <div id="momo">
+                    <input class="move_btn" id="south" type="button" value="⬇️(S)" onclick="move('남');" >
+                    <input class="move_btn" id="down" type="button" value="🔽(C)" onclick="move('밑');" >
+                </div>
+            </div>
+            <!-- <div id="portrait_2">
+                <img id="enemy" src="enemy_basic.png">
+            </div> -->
+        </div>
+        <div id="bottom_me">
+            <input id="healing" type="button" value="💖치유(H)" onclick="heal();">
+        </div>
+        <div id="reset">
+            <input id="seea" type="button" value="🔍탐색(F)" onclick="search();">
+            <input id="reseet" type="button" value="❌초기화" onclick="clear2();">
+        </div>
+    </div>
+
+</body>
+
+</html>

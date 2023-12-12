@@ -1,0 +1,197 @@
+/* 큰 틀(배경화면) */
+#background{
+    width: 1435px;
+    height: 600px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+/* 상단 출력 화면 */
+#console_window{
+    display: flex;
+    width: 1500x;
+}
+/* 오른쪽 캐릭정보 및 위치정보 */
+#right_me{
+    width: 220px;
+    margin-top: 17px;
+}
+
+#console_a{
+    width: 620px;
+    height: 400px;
+    margin: 12.5px;
+}
+#console_b{
+    width: 320px;
+    height: 400px;
+    margin-top: 12.5px;
+}
+#console_c{
+    width: 210px;
+    /* margin-top: 12.5px; */
+    margin-left: 12.5px;
+}
+#console_d{
+    width: 210px;
+    margin-left: 12.5px;
+}
+#console_f{
+    width: 210px;
+    margin-left: 10px;
+    margin-top: 12.5px;
+}
+#tn{
+    display: flex;
+    width: 1200px;
+    height: 10px;
+    margin-left: -22px;
+    align-items: center;
+    margin-top: 20px;
+}
+#tr{
+    display: flex;
+    width: 200px;
+    height: 10px;
+}
+    #tr{
+    display: flex;
+    width: 1000px;
+    height: 10px;
+    margin-left: 660px;
+    align-items: center;
+    margin-top: 20px;
+}
+#menu{
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+#portrait{
+    display: flex;
+    width: 200px;
+    height: 180x;
+    margin: 10px;
+}
+/* #portrait_2{
+    display: flex;
+    width: 200px;
+    height: 180x;
+    margin: 10px;
+    
+} */
+#mee{
+    width: 130px;
+    height: 155px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* #enemy{
+    width: 130px;
+    height: 155px;
+    margin-right: 50px;
+    margin-top: 20px;
+} */
+#mn{
+    width: 800px;
+    margin-left: 130px;
+}
+
+#reset{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+
+}
+#seea{
+    margin-left: 640px;
+    width: 100px;
+}
+#reseet{
+    margin-left: 100px;
+}
+#bottom_me{
+    margin-left: 620px;
+}
+
+
+#momo{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#momo_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#momo_4{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#north, #south{
+    margin-left: 60px;
+    width: 60px;
+}
+#up, #down{
+    margin-left: 140px;
+}
+#east, #west{
+    margin-left: 15px;
+    width: 60px;
+}
+#atk_btn{
+    margin-left: 70px;
+}
+
+/* 필드 메세지 출력 */
+#a{
+    width: 620px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: lightyellow; opacity: 0.88;
+    resize: none;
+}
+
+
+/* 전투 메세지 출력 */
+#b{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: aquamarine; opacity: 0.88;
+    resize: none;
+}
+
+/* 캐릭터 상황판 */
+#c{
+    width: 202px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: pink; opacity: 0.88;
+    resize: none;
+}
+/* 캐릭터 위치 */
+#d{
+    width: 202px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: white; opacity: 0.88;
+    resize: none;
+}
+#f{
+    width: 220px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: gray; opacity: 0.88;
+    resize: none;
+}
+
+#turnbtn{
+    width: 100px;
+    box-shadow: 5px, 5px, 5px;
+}
